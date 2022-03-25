@@ -50,11 +50,11 @@ Each of the digits in the list from step 2 corresponds to a product of n values 
 A number from our list, say "42351", encodes 5 nxm positions on the matrix. Each digit encodes the **column** and its index/positional placement in the string encodes the **row**:
 
 ```
-"42351" maps to a product of 5 numbers from a matrix M ⇒ M_14 * M_22 * M_33 * M_45 * M_51
+"42351" maps to a product of 5 numbers from a matrix M ⇒ M_14 ⋅ M_22 ⋅ M_33 ⋅ M_45 ⋅ M_51
 
 If a term from the list is -ve we also assign a -ve sign to our product. 
 
-"-54123" ⇒ **-** M_15 * M_24 * M_31 * M_42 * M_53
+"-54123" ⇒ - M_15 ⋅ M_24 ⋅ M_31 ⋅ M_42 ⋅ M_53
 ```
 
 Now map each of the terms from the list in step 2 using the above rule to obtain another list.
