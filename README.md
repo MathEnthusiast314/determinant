@@ -64,3 +64,5 @@ Now map each of the terms from the list in step 2 using the above rule to obtain
 Sum the values from the previous step to obtain the determinant of the matrix `M`.
 
 One can also do all of the four steps directly by looking at a matrix once they have enough practice with this process.
+
+Determinant calculator: https://www.desmos.com/calculator/nqjnpwzbte
