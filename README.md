@@ -45,7 +45,7 @@ Once you do that, you should get something like this:
 
 ## 3. Find products
 
-Now each of the digits in the list from step 2 correspond to a product of n values from our nxn matrix.
+Now each of the digits in the list from step 2 corresponds to a product of n values from our nxn matrix.
 
 A number from our list, say "42351", encodes 5 nxm positions on the matrix. Each digit encodes the **column** and its index/positional placement in the string encodes the **row**:
 
